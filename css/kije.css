@@ -1,0 +1,202 @@
+/* http://dev.paik.ac.kr/guide/guide/index.html */
+
+
+
+
+/* 네이밍 규칙
+네이밍의 조합은 '형태_의미_(순서)_상태'을 기본 순서로 사용한다 : btn_cancle_01_off.gif
+언더스코어(_) 조합 : 파일, 폴더, 이미지에 사용한다.
+HTML 문서 안에서 언더스코어(_)의 조합은 form, input 엘리먼트등의 name 어트리뷰트의 값을 사용하는 것을 권장한다. 
+하이픈(-) 조합 : CSS 네이밍에 사용하는 것을 권장한다.
+파일 및 폴더의 경우 1, 2과 같은 한자리 정수는 사용하지 않으며 01, 02과 같이 사용하며 사용을 권장한다.
+대부분의 파일관리 유틸리티 프로그램들을 사용하여 파일의 이름으로 정렬할 때에 정렬의 순서를 보장
+동일한 이름의 css 네이밍의 경우 가장 뒤에 숫자를 사용하여 분류지어 사용할 수 있으며(한자리정수), 첫번째 파일은 숫자를 생략하여 사용할 수 있다. */
+
+/* 아이디(id)
+카멜 케이스 사용 
+지정된 레이아웃 및 폼객체를 제외한 스타일 지정을 위하여 id를 사용하지 않는다.
+앵커로서 사용되는 엘리먼트는 id 지정이 가능하다. */
+
+/* 클래스(class)
+네이밍은 - (하이폰) 사용을 기본으로 한다.
+하이픈(-)을 이용하여 3단계를 초과하여 사용하는 방법은 지양한다. */
+
+/* 이미지 네이밍 규칙
+이미지 네이밍의 조합은 '형태_의미_순서_상태'의 순서로 조합한다.
+같은 이름의 이미지가 두 개 이상 존재하면 숫자로 구분한다.
+이미지 네이밍은 이미지의 확장자에 관계 없이 순차적으로 적용한다. 예) btn_confirm.gif, btn_confirm_02.jpg, btn_confirm_03.png */
+
+/* 구조, 표현, 동작의 분리
+<input type="text" id="formMyClass" class="my-class" style="width:80%;" />
+특정 엘리먼트에 id, class, style을 선언할 때에 선언 순서는 엘리먼트의 기본 애트리뷰트 지정후 마지막에 id, class와 style을 선언한다.
+ */
+
+/* A 엘리먼트
+ <a href="#none" title="새창" target="_blank">인쇄하기</a>
+ href 애트리뷰트의 값은 #none로 한다. 앵커 기능이 있다면 해당 엘리먼트의 id값을 작성한다.
+ 링크의 목표가 명확하지 않은 경우 title 애트리뷰트의 값으로 부가적인 설명을 제공한다. */
+
+/* CSS 코드 작성 규칙 */
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------
+    File   : Layout.css
+    Author : Gildong, Hong 2017-07
+    CSS 적용순서 : 아이디 > 태그와 클래스 > 클래스 > 태그
+    CSS 선택자 선언순서 : Type Selector, Layout Selector, Class Selector, Etc
+    CSS 속성 선언순서 : display, position(top, right, bottom, left, z-index), float/clear, overflow, width/height, margin/padding(top, right, bottom, left),
+    border(top, right, bottom, left), background(image,position,repeat,color), border-radius, box-shadow,
+    font(font-weight, font-style, font-variant, font-size/line-height, font-family), opacity, cursor, box-sizing, etc
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* 모든 속성은 영문 소문자로만 작성 */
+
+/* 주석 / 빈줄
+CSS 주석 처리는 시작 주석을 작성하며 종료 주석은 작성하지 않는다. 종료코드 이후에 오는 요소에 한 칸 띄어 쓰기를 허용한다.
+객체를 구분하기 위하여 코드 그룹 간 1줄의 빈 줄을 허용한다. 빈 줄의 1줄을 초과하지 않는다. */
+
+/* 속성의 선언 순서
+display, visibility, overflow, float, position, width, height, margin, padding, border, background, font, color, letter-spacing, text-decoration, text-align, white-space, word-spacing */
+
+/* Background 약식 속성
+background-attachment, background-color, background-image, background-repeat, background-position 이다. */
+
+/* BEM 
+https://cyberx.tistory.com/100
+search_btn--active  같은 방식  */
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------
+    File   : Kije.css
+    Author : Kije Park. 2021. 1. 29
+    CSS 적용순서 : 아이디 > 태그와 클래스 > 클래스 > 태그
+    CSS 선택자 선언순서 : Type Selector, Layout Selector, Class Selector, Etc
+    CSS 속성 선언순서 : display, position(top, right, bottom, left, z-index), float/clear, overflow, width/height, margin/padding(top, right, bottom, left),
+    border(top, right, bottom, left), background(image,position,repeat,color), border-radius, box-shadow,
+    font(font-weight, font-style, font-variant, font-size/line-height, font-family), opacity, cursor, box-sizing, etc
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+ * Global
+ * font
+ * color
+ 
+ * header
+ * Summary
+ * Project
+ * Awards
+ * Stacks
+ * chart
+ * Education
+ * Attitude
+ * Salary
+ * Contact
+ * footer
+*/
+
+
+
+
+/* Global  */
+body { font-family: var(--basic-font); color: var(--basic-color); letter-spacing: var(--kr-ls); background: #e2e1e0b0; }
+tr > td { font-weight: 300; font-size: 0.85em; letter-spacing: -0.05em; color: rgba(46, 47, 68, 0.911); text-transform: uppercase; }
+.badge { font-weight: 300; letter-spacing: 0; padding: .27em .45em; }
+.desc { font-weight: 300; letter-spacing: -0.03em; font-size: 0.75em; color: grey; text-transform: uppercase; }
+
+/* font */
+:root {
+    --basic-font: 'Mukta', 'Noto Sans KR', sans-serif;
+    /* var(--basic-font); */
+    --kr-ls: -0.05rem;
+    --en-ls: 0;
+}
+h2 { font-size: 1.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0; color: #3f4165; }
+section > p { font-size: 0.8rem; letter-spacing: -0.05rem; color: rgba(46, 47, 68, 0.61); }
+th { font-weight: 500; font-size: 1.05em; letter-spacing: -0.05em; }
+thead > tr > th { font-weight: 500; font-size: 0.9em; letter-spacing: -0.05em; color: rgba(46, 47, 68, 0.911); text-align: center;  vertical-align: middle; }
+.en { letter-spacing: 0; }
+.table-caption { font-weight: 300; letter-spacing: -0.03em; font-size: 0.75em; color: grey; text-align: center; margin-top: 15px; margin-bottom: 0rem; text-transform: uppercase; }
+/* color */
+:root {
+    --basic-color: rgba(46, 47, 68, 0.911);
+    --purple-color: #7A33FF;
+}
+
+/* section */
+section.container { margin-bottom: 150px; }
+
+/* header */
+header { background: gray; background-image: url(/img/ryu-background.png); background-repeat: no-repeat; background-position: center center; background-size: cover; background-attachment: fixed; }
+.header-title { padding-top: 16rem; padding-bottom: 16rem; padding-left: 4rem; padding-right: 4rem; color: #ffffff; }
+.header-title h1 { font-size: 52px; font-weight: 400; letter-spacing: -0.05em; text-shadow: 0 1px 0 #ccc, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15); }
+.navbar { padding-left: 30px; padding-right: 30px; }
+.navbar-nav { text-transform: uppercase; font-weight: 700; letter-spacing: 0; font-size: 0.9rem; }
+.navbar-nav .nav-item .nav-link { color: rgba(217, 23, 23, 0.402); }
+.navbar h3 { width: 180px; font-weight: 800; font-size: 1.4rem; text-transform: uppercase; margin: 0 }
+.navbar .btn-custom { width: 84px; background-size: 200% auto; background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%); color: #ffffff; font-size: 0.7rem; border-radius: 10px; text-transform: uppercase; transition: 0.5s; }
+.navbar .btn-custom:hover { background-position: right center; color: rgb(43, 31, 59); }
+
+/* Summary */
+#summary { margin-top: 150px; }
+#summary h2 { font-weight: 800; letter-spacing: 0; }
+.main-copy { font-size: 1.1rem; font-weight: 100; line-height: 2rem; letter-spacing: -0.09rem; }
+.main-copy span { font-weight: 200; letter-spacing: 0; }
+.main-copy span.bold { font-weight: 200; letter-spacing: 0; }
+.main-copy span.bolder { font-weight: 500; letter-spacing: -0.05em; }
+
+/* Project */
+#project table tbody td i { font-size: 1.1rem; color: rgba(46, 47, 68, 0.377); transition-property: font-size, color; transition-duration: 0.5s; }
+#project table tbody td i:hover { cursor: pointer; font-size: 1.7rem; color: #7A33FF; }
+
+/* Awards */
+#awards table tbody td i { font-size: 1.1rem; color: rgba(46, 47, 68, 0.377); transition-property: font-size, color; transition-duration: 0.5s; }
+#awards table tbody td i:hover { cursor: pointer; font-size: 1.7rem; color: #7A33FF; }
+
+/* Stacks */
+#stacks table tbody td { font-weight: 300; font-size: 0.85em; letter-spacing: -0.03em; color: rgba(46, 47, 68, 0.911); text-transform: uppercase; }
+#stacks table tbody td img { width: 60px; display: inline-block; margin: 0px auto; }
+#stacks table tbody td i { font-size: 0.7rem; letter-spacing: -2.4px; }
+
+/* chart */
+#charts .card-title { font-size: 1rem; font-weight: 800; letter-spacing: 3px; margin-top: -17px; text-align: center;  text-transform: uppercase; color: rgb(29, 116, 255); }
+#charts .card-text { font-size: 0.9rem; font-weight: 300; letter-spacing: -0.05rem; padding: 0 15px; margin-top: 1.5rem; margin-bottom: 10px; }
+#charts .chart-box { height: 280px; padding: 30px 40px 30px 40px; }
+#charts .card-body .card-text { font-size: 0.9rem; font-weight: 300; letter-spacing: -0.05rem; padding: 0 15px; margin-top: 1.5rem; margin-bottom: 10px; }
+
+/* Education */
+#education .card-title { font-size: 1.3rem; font-weight: 500; letter-spacing: -0.05rem; }
+
+/* Attitude */
+
+/* Owl Carousel */
+.owl-carousel .item { width: 100%; height: 500px; }
+.owl-carousel .item iframe { width: 100%; height: 100%; }
+
+/* Salary */
+h4 {  font-weight: 800; font-size: 1rem; margin-top: 1rem; text-transform: uppercase; }
+#salary .card-header h4 { font-weight: 200; letter-spacing: 0; }
+#salary .card-header strong { font-weight: 800; font-size: 1rem; }
+#salary ul { font-size: 0.85rem; letter-spacing: -0.05rem; margin-top: 0.8rem; margin-bottom: 1.2rem; line-height: 1.5rem; }
+#salary .card .card-body small { font-size: 1rem; color: rgba(46, 47, 68, 0.61); }
+
+/* Contact */
+.contact { text-transform: uppercase; }
+.contact .contact-header { margin-bottom: 150px; text-align: center; }
+.contact .contact-body { display: flex; flex-direction: column; align-items: center; justify-content: center; background: #ffffff; max-width: 600px; height: 320px; margin: 0 auto; border-radius: 10px; }
+.contact .contact-body h1 { font-size: 2.5rem; font-weight: 800; letter-spacing: 1.5px; margin-bottom: 0px; }
+.contact .contact-body small { font-size: 0.7rem; font-weight: 800; letter-spacing: 3.5px; }
+.contact .contact-body img { width: 90px; height: 90px; border-radius: 50%; border: 3px solid greenyellow; }
+.contact .contact-body ul { padding-left: 4px; margin-bottom: 4px; }
+.contact .contact-body ul li { font-size: 12px; letter-spacing: 0px; }
+.contact .contact-body ul li strong { margin-left: 4px; }
+.contact .contact-body ul li i { position: relative; top: -4px; left: -4px; }
+.contact .contact-body .contact-desc { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.5px; }
+
+/* footer */
+footer  a { font-size: 0.75rem; text-transform: uppercase; text-decoration: none; padding: 10px; color: rgba(46, 47, 68, 0.637); }
+
+/* Responsive */
+@media (max-width: 991.98px) {
+    .btn-custom { display: none; }
+}

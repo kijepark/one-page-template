@@ -1,0 +1,107 @@
+/* https://github.com/hsh2001/apple-dark-mode */
+
+/*
+  media=(prefers-color-scheme: dark)
+*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------
+    File   : Kije.css
+    Author : Kije Park. 2021. 1. 29
+    CSS 적용순서 : 아이디 > 태그와 클래스 > 클래스 > 태그
+    CSS 선택자 선언순서 : Type Selector, Layout Selector, Class Selector, Etc
+    CSS 속성 선언순서 : display, position(top, right, bottom, left, z-index), float/clear, overflow, width/height, margin/padding(top, right, bottom, left),
+    border(top, right, bottom, left), background(image,position,repeat,color), border-radius, box-shadow,
+    font(font-weight, font-style, font-variant, font-size/line-height, font-family), opacity, cursor, box-sizing, etc
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+ * Global
+ * font
+ * color
+ 
+ * header
+ * Summary
+ * Project
+ * Awards
+ * Stacks
+ * chart
+ * Education
+ * Attitude
+ * Salary
+ * Contact
+ * footer
+*/
+
+
+
+
+/* Global  */
+body { font-family: var(--basic-font); color: var(--basic-color); letter-spacing: var(--kr-ls); }
+body { transition: .5s background, .5s color; background: #262b36; color: #fff; }
+tr > td { font-weight: 300; font-size: 0.85em; letter-spacing: -0.05em; color: var(--basic-color); text-transform: uppercase; }
+.badge { font-weight: 300; letter-spacing: 0; padding: .27em .45em; }
+
+/* font */
+:root {
+    --basic-font: 'Mukta', 'Noto Sans KR', sans-serif;
+    /* var(--basic-font); */
+    --kr-ls: -0.05rem;
+    --en-ls: 0;
+}
+h2 { font-size: 1.85rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0; color: var(--white-color); }
+section > p { font-size: 0.8rem; letter-spacing: -0.05rem; color: var(--basic-color); }
+th { font-weight: 500; font-size: 1.05em; letter-spacing: -0.05em; color: var(--white-color2);  }
+thead > tr > th { font-weight: 500; font-size: 0.9em; letter-spacing: -0.05em; color: var(--basic-color); text-align: center;  vertical-align: middle; }
+.en { letter-spacing: 0; }
+
+/* color */
+:root {
+    --basic-color: rgba(207, 207, 207, 0.459);
+    --purple-color: #7A33FF;
+    --white-color: white;
+    --white-color2: rgba(255, 255, 255, 0.781);
+}
+
+.card-body { background-color:  #1a1d24; }
+.card { border: none; }
+.table tr th { border-bottom: 1px solid rgba(255, 255, 255, 0.094); }
+.table tr td { border-bottom: 1px solid rgba(255, 255, 255, 0.094); }
+
+
+
+
+
+
+
+
+/* header */
+.navbar-nav { text-transform: uppercase; font-weight: 700; letter-spacing: 0; font-size: 0.9rem; }
+header { transition: .5s background; } /* 적용됨  */
+header .nav-link { letter-spacing: 0; }
+/* Summary */
+.main-copy { font-size: 1.1rem; font-weight: 100; line-height: 2rem; letter-spacing: -0.09rem; }
+
+/* Project */
+
+
+/* Awards */
+
+/* Stacks */
+
+/* chart */
+.card-title { font-size: 1rem; font-weight: 800; letter-spacing: 3px; margin-top: -17px; text-align: center;  text-transform: uppercase; color: rgb(29, 116, 255); }
+.card-text { font-size: 0.9rem; font-weight: 300; letter-spacing: -0.05rem; padding: 0 15px; margin-top: 1.5rem; margin-bottom: 10px; }
+/* Education */
+
+/* Attitude */
+
+/* Salary */
+h4 {  font-weight: 800; font-size: 1rem; margin-top: 1rem; text-transform: uppercase; }
+/* Contact */
+
+/* footer */
+footer { transition: .5s background; }  /* 적용됨  */
+footer  a { font-size: 0.75rem; text-transform: uppercase; text-decoration: none; padding: 10px; color: rgba(46, 47, 68, 0.637); }
+
+/* 적용됨  */
