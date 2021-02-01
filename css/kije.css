@@ -5,6 +5,20 @@ body {
   color: #3f4165;
 }
 
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+h2, .h2 {
+  font-size: 2.5rem;
+}
+
+.fw-normal {
+  font-weight: 500 !important;
+}
+
 .btn-custom {
   width: 84px;
   border-radius: 10px;
@@ -20,6 +34,14 @@ body {
 .btn-custom:hover {
   background-position: right center;
   color: rgb(43, 31, 59); 
+}
+
+.ls-0 {
+  letter-spacing: 0;
+}
+
+.ls--005 {
+  letter-spacing: -0.05em;
 }
 
 /* Header */ 
@@ -59,7 +81,6 @@ header .container h1 {
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0;
-  text-transform: uppercase;
 }
 
 .navbar .navbar-brand {
@@ -67,11 +88,24 @@ header .container h1 {
   margin: 0;
   font-size: 1.25rem;
   font-weight: 800;
-  text-transform: uppercase;
   line-height: 1.2;
 }
 
 .navbar .navbar-nav .show > .nav-link,
 .navbar .navbar-nav .nav-link.active {
   color: #3f416581;
+}
+
+/* Summary */
+#summary {
+  padding-top: 9.375rem;
+  padding-bottom: 9.375rem;
+}
+
+#summary p {
+  font-size: 1.1rem;
+  font-weight: 100;
+  line-height: 2rem;
+  letter-spacing: -0.09rem;
+  word-spacing: 0.1rem;
 }
