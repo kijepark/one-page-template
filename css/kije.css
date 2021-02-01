@@ -5,16 +5,6 @@ body {
   color: #3f4165;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-  text-transform: uppercase;
-  font-weight: 800;
-  letter-spacing: 0;
-}
-
-h2, .h2 {
-  font-size: 2.5rem;
-}
-
 .fw-normal {
   font-weight: 500 !important;
 }
@@ -42,6 +32,28 @@ h2, .h2 {
 
 .ls--005 {
   letter-spacing: -0.05em;
+}
+
+.pt-27 {
+  padding-top: 9rem;
+}
+
+.pb-27 {
+  padding-bottom: 9rem;
+}
+
+.section-header {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0;
+  font-size: 2.5rem;
+}
+
+.section-desc {
+  font-size: 0.8rem;
+  letter-spacing: -0.05rem;
+  word-spacing: 0.05rem;
+  color: #3f4165ab;
 }
 
 /* Header */ 
@@ -96,16 +108,15 @@ header .container h1 {
   color: #3f416581;
 }
 
-/* Summary */
-#summary {
-  padding-top: 9.375rem;
-  padding-bottom: 9.375rem;
-}
-
-#summary p {
+#summary.container p {
   font-size: 1.1rem;
   font-weight: 100;
   line-height: 2rem;
   letter-spacing: -0.09rem;
   word-spacing: 0.1rem;
+}
+
+/* Proejct */
+#project.container {
+  margin-bottom: 9.375rem;
 }
