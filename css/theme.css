@@ -6,7 +6,7 @@ body {
 }
 
 /* 헤더 */
-header { background-image: url(/img/main2.png); background-repeat: no-repeat; background-position: center; background-size: cover; }
+header { background-image: url(/assets/img/main2.png); background-repeat: no-repeat; background-position: center; background-size: cover; }
 header .container { padding: 16rem 4rem; }
 header .container h1 {
   letter-spacing: -0.05em;
@@ -182,4 +182,4 @@ footer { flex-shrink: 0; }
 .btn:hover { background-position: right center; color: rgb(255, 255, 255); }
 .btn-3 { background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%); }
 
-.backimg { height: 50rem; background-image: url(/img/back-final.png); background-repeat: no-repeat; background-position: top; background-size: cover; }
+.backimg { height: 50rem; background-image: url(/assets/img/back-final.png); background-repeat: no-repeat; background-position: top; background-size: cover; }
