@@ -1,5 +1,8 @@
 # One Page Template
 
+![dark](https://i.ibb.co/GH46HqQ/One-Page-Templat.png)
+![dark](https://i.ibb.co/VvYYKPw/One-Page-Templat-dark.png)
+
 Bootstrap 5로 만든 개발자 포트폴리오 템플릿입니다.
 이 테마는 개발자가 취업할 때에 이력서나 자기소개서로 사용할 수 있는 Html 기반 템플릿입니다. Bootstrap5 기반으로 작성되어 있으며 Web 기반의 One page 템플릿입니다. 
 
