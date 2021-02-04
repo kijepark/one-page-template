@@ -179,7 +179,7 @@ footer { flex-shrink: 0; }
 
 /* button 2  */
 .btn-box { display: flex; justify-content: center; align-items: center; align-content: center; flex-wrap: wrap; margin: 0 auto; }
-.btn { flex: 1 1 auto; margin: 5px; font-weight: 400; font-size: 0.7rem; text-align: center; text-transform: uppercase; transition: 0.5s; background-size: 200% auto; color: rgb(137, 137, 137); border-radius: 10px; }
+.btn { margin: 5px; font-weight: 400; font-size: 0.7rem; text-align: center; text-transform: uppercase; transition: 0.5s; background-size: 200% auto; color: rgb(137, 137, 137); border-radius: 10px; }
 .btn:hover { background-position: right center; color: rgb(255, 255, 255); }
 .btn-3 { background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%); }
 
