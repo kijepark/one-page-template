@@ -92,7 +92,7 @@ header .container h1 {
 .text-upper { text-transform: uppercase; }
 
 /* badge  */
-.badge { font-size: 0.6rem; font-weight: 300; letter-spacing: 0; padding: .24rem .40rem; text-transform: uppercase; }
+.badge { font-size: 0.6rem; font-weight: 300; letter-spacing: 0; padding: .24rem .40rem; text-transform: uppercase; margin-bottom: 3px; }
 .bg-inprogress { background-color: #1b77ff; }
 .bg-done { background-color: rgb(140, 233, 0); }
 .bg-refactoring { background-color: #ff3366; }
