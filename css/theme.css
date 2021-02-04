@@ -161,6 +161,8 @@ td .profile { padding-top: 0.5rem; }
 .contact-body ul li strong { margin-left: 0.25rem; }
 .contact-body ul li i { position: relative; top: -0.25rem; left: -0.25rem; }
 .contact-desc { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.031rem; color: #7e1bff81; }
+@media (max-width: 768px) { .contact-body { margin: 0 } }
+table thead th { border-bottom: none !important; }
 
 /* footer  */
 .social-title { padding: 0.625rem; font-size: 0.75rem; font-weight: 300; letter-spacing: 0; text-transform: uppercase; text-decoration: none; color: #3f4165; }
@@ -174,7 +176,6 @@ footer .social-box { margin-bottom: 1.25rem;}
 
 /* sticky footer  */
 footer { flex-shrink: 0; }
-.container-fluid { display: flex;  flex-direction: column;}
 
 /* button 2  */
 .btn-box { display: flex; justify-content: center; align-items: center; align-content: center; flex-wrap: wrap; margin: 0 auto; }
