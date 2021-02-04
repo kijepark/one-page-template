@@ -1,0 +1,54 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background: rgb(41, 46, 62) ;
+    }
+    header {
+        background-image: url(/assets/img/hero-dark.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .section-header { color: white; }
+    .section-desc { color: rgba(255, 255, 255, 0.329); }
+    p, tr, th, td { color: white; }
+    thead, tbody, tfoot, tr, td, th { border-color: rgba(255, 255, 255, 0.094);}
+    .table > :not(caption) > * > * { border-color: rgba(255, 255, 255, 0.094); }
+    table, .card-body { background-color: rgb(29, 32, 42); }
+    .card { border: none;}
+    td div:nth-child(1) { color: rgba(255, 255, 255, 0.67); }
+    td div:nth-child(2) { color: rgba(255, 255, 255, 0.247); }
+    td div:nth-child(3) { color: white; }
+    #stacks table tbody td  { color: rgba(255, 255, 255, 0.418); }
+    .card-text { color: rgba(255, 255, 255, 0.541); }
+    .card-title { color: white; }
+    /* .owl-carousel .item  { color: white; } 않됨  */
+    .price-title h2 { color: white; }
+    .price-title span  { color: white; }
+    #salary ul  { color: rgba(255, 255, 255, 0.473); }
+    .license-copy { color: rgba(255, 255, 255, 0.733); }
+    .bg-grey { background-color: #909090ea; }
+    .table { --bs-table-hover-bg: rgba(16, 16, 23, 0.868); }
+    #summary p { color: rgba(255, 255, 255, 0.555); }
+    #document p { color: rgba(255, 255, 255, 0.555); }
+    #contact p { color: rgba(255, 255, 255, 0.555); }
+    footer a { color: rgba(255, 255, 255, 0.678); }
+    .card { background-color: rgba(29, 32, 42, 0.445); }
+    .card-header { background-color: rgb(19, 22, 31); }
+    .social-title { color: #ffffff44; }
+    .navbar { background-color: rgba(26, 26, 44, 0.863);}
+    .navbar-brand { color: white; }
+    .navbar-light .navbar-brand { color: white; }
+    .table-desc  { color: rgba(255, 255, 255, 0.212); }
+
+
+
+
+
+
+
+
+
+
+
+
+}
