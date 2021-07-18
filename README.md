@@ -1,3 +1,15 @@
+# 진짜 개발자 출시
+[![Untitled-1 2](https://user-images.githubusercontent.com/28555252/126054305-eaaee49d-832c-4869-b684-fec6cb41a960.png)](https://realdeveloper.pro)
+
+이제는 템플릿을 통해 HTML을 직접 수정하여 이력서를 만들지 않고도  
+진짜 개발자를 통해 쉽고 간단하게 확장된 디자인과 기능의 이력서 템플릿을 만들 수 있습니다.
+
+기능, 스타일 적으로 확장되었으며 개인의 도메인 주소, 이력서 요약본 PDF 다운로드 등을
+할 수 있습니다.
+
+지금 바로 사용하세요.  
+<http://realdeveloper.pro/>
+
 # One Page Template
 
 ![dark](https://i.ibb.co/GH46HqQ/One-Page-Templat.png)
